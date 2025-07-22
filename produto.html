@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Básico de Produto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2>Cadastro de Produto</h2>
+        <form action="/submit" method="post">
+
+            <label for="ID_Produto">ID_Produto:</label>
+            <input type="text" id= "ID_Produto" name= "ID_Produto" required>
+
+            <label for="descricao">Descrição:</label>
+            <input type="text" id= "descricao" name= "descricao" required>
+
+            <label for="marca">Marca:</label>
+            <input type="text" id= "marca" name= "marca" required>
+
+            <label for="qtd">Quantidade:</label>
+            <input type="number" id= "qtd" name= "qtd">
+
+            <label for="preco">Preço:</label>
+            <input type="text" id= "preco" name= "preco">
+
+            <button type="submit">Cadastrar</button>
+        </form>
+    </div>
+</body>
+
+</html>

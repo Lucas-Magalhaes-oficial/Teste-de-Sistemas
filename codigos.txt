@@ -1,0 +1,16 @@
+Verificar se o python está instalado e qual versão é
+Digite no terminal do Vscode
+
+python --version
+pip --version
+
+------------------------------------
+Instalar o Selenium
+digite no terminal do Vscode
+
+pip install Selenium
+
+python.exe -m pip install --upgrade pip
+
+----------------------------------------
+ChromeDriver
